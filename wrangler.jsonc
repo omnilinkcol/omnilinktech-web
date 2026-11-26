@@ -1,0 +1,8 @@
+{
+  "name": "omnilinktech-web",
+  "compatibility_date": "2026-11-26",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash"
+  }
+}
