@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMNILINKTECH | Communication Systems</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #172d4b;
+      background: #f4f7fb;
+    }
+    header {
+      background: white;
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #dce4ee;
+    }
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .logo small {
+      display: block;
+      font-size: 11px;
+      letter-spacing: 4px;
+      font-weight: normal;
+    }
+    nav a {
+      color: #17365e;
+      text-decoration: none;
+      margin-left: 22px;
+    }
+    .hero {
+      background: linear-gradient(120deg, #071b38, #145a98);
+      color: white;
+      padding: 65px 8%;
+    }
+    .hero h1 { font-size: 42px; margin: 0 0 12px; }
+    .hero p { font-size: 18px; }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .product {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 16px #142d4b12;
+    }
+    h2 { color: #123761; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 12px 8px;
+      border-bottom: 1px solid #e5ebf2;
+    }
+    td:first-child { font-weight: bold; }
+    .button {
+      display: inline-block;
+      background: #123761;
+      color: white;
+      padding: 13px 22px;
+      border-radius: 7px;
+      text-decoration: none;
+      margin-top: 12px;
+    }
+    footer {
+      background: #071b38;
+      color: white;
+      text-align: center;
+      padding: 28px;
+    }
+    @media(max-width:700px) {
+      header { flex-direction: column; gap: 18px; }
+      nav a { margin: 0 8px; }
+      .hero h1 { font-size: 30px; }
+      .product { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    OMNILINK
+    <small>COMMUNICATION SYSTEMS</small>
+  </div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#producto">Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <h1>Innovación en comunicaciones</h1>
+  <p>Tecnología, conectividad y soluciones especializadas.</p>
+</section>
+
+<main class="container" id="producto">
+  <div class="product">
+
+    <section class="card">
+      <h2>AMPLIFIER Wi-Fi OL-150</h2>
+      <p>
+        Equipo de amplificación y conectividad inalámbrica
+        diseñado para ofrecer una solución robusta de comunicaciones.
+      </p>
+      <a href="/productos/ol-150/" class="button">
+        Información técnica
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>Especificaciones técnicas</h2>
+      <table>
+        <tr><td>Modelo</td><td>OL-150</td></tr>
+        <tr><td>Tipo</td><td>Electronic module</td></tr>
+        <tr><td>Alimentación</td><td>12 VDC</td></tr>
+        <tr><td>Potencia</td><td>4 Watts</td></tr>
+        <tr><td>Banda</td><td>2.4 GHz / 5 GHz</td></tr>
+        <tr><td>Servicio</td><td>Communications</td></tr>
+        <tr><td>Protección</td><td>IP65 nominal</td></tr>
+        <tr><td>S/N</td><td>OL150-2026-0001</td></tr>
+      </table>
+    </section>
+
+  </div>
+</main>
+
+<footer id="contacto">
+  <strong>OMNILINK | Communication Systems</strong>
+  <p>www.omilinktech.com</p>
+  <p>Información técnica y soporte de nuestros productos</p>
+</footer>
+
+</body>
+</html>
